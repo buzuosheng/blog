@@ -1,0 +1,36 @@
+name: deploy blog
+
+on:
+  push:
+  schedule:
+    - cron: '30 20 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        submodules: true
+    - uses: srt32/git-actions@v0.0.3
+      with:
+        args: git submodule update --init --recursive
+    - name: use Node.js 10.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 10.x
+    - name: npm i hexo
+      run: npm install hexo-cli -g
+    - name: npm install
+      run: npm install
+    - name: npm run build
+      run: hexo g
+    - name: setup aliyun oss
+      uses: manyuanrong/setup-ossutil@master
+      with:
+        endpoint: oss-cn-beijing.aliyuncs.com
+        access-key-id: ${{ secrets.OSS_KEY_ID }}
+        access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
+    - name: cp aliyun oss
+      run: ossutil cp -rf public oss://buzuosheng-blog

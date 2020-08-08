@@ -1,0 +1,213 @@
+# Blog info
+blog_name: Mxin
+slogan: 从入门到放弃
+url: http://www.buzuosheng.com
+
+# Set avatar (Absolute url and relative url)
+avatar: /images/hand.jpg
+
+# Set favicon
+favicon: /favicon.ico
+
+# For seo
+keywords: 前端,面试,服务器,面试题,nodejs
+
+home_nav:
+  - name: Blog
+    url: /archives
+    target_blank: false #不在新页面打开
+  - name: Project
+    url: /project
+    target_blank: true #在新页面打开
+  - name: Github
+    url: https://github.com/buzuosheng
+    target_blank: true
+  # - name: Twitter
+  #   url: https://github.com/buzuosheng
+  #   target_blank: true
+
+# config page nav
+page_nav:
+  - name: 博客
+    url: /archives/
+    target_blank: false # 不在新页面打开
+  - name: 分类
+    url: /category/
+    target_blank: false
+  - name: 标签
+    url: /tag/
+    target_blank: false
+  - name: 友链
+    url: /link/
+    target_blank: false
+  - name: 关于
+    url: /about/
+    target_blank: false
+  # - name: RSS
+  #   url: /atom.xml
+  #   target_blank: true # 在新页面打开
+  - name: 搜索
+    url: /search/
+    target_blank: false # 在新页面打开
+
+page_nav_style: CIRCLE  # CIRCLE|ROUND_RECT
+
+# 面包屑
+breadcrumb:
+  isShow: true # true|fase
+
+# 盒子
+toolbox:
+  isShow: true # true|fase
+  text: 盒子
+
+search_slogan:
+  isShow: true # true|fase
+  text: Can you find the bug of world ~
+
+link_slogan:
+  isShow: true # true|fase
+  text: 互相分享博客可以联系
+
+
+# set backtop show or hide
+backtop:
+  home: false
+  archive: false
+  category: false
+  tag: true
+  post: true
+  link: false
+  about: false
+
+donation:
+  show: true
+  btn_text: 支持一下
+  tip: 扫码关注我的微信公众号-大前端合集
+  items:
+    - type: 微信
+      text: 微信公众号-大前端合集
+      imgUrl: /images/wechat.jpg
+
+post:
+  header_align: CENTER # LEFT|CENTER
+  showToc: true # true|false
+  showComments: true
+  open_in_new_window: false
+  show_prev_next: true
+
+# =========================================================
+# 个性化设置
+# =========================================================
+
+# Custom CSS style, 推荐把样式文件放在blog源码文件夹，而不是主题里面
+personal_style: /css/personal-style.css
+
+# 这个值取决于你得背景图片是深色还是浅色，深色用dark，浅色用light
+home_background_scheme: light # dark、light
+
+# custom font-family 暂时只支持这3种英文字体，你可以完全自定义字体(看文档)
+blog_name_font_familiy: calligraffittiregular
+# blog_name_font_familiy: Lobster-Regular
+# blog_name_font_familiy: PoiretOne-Regular
+
+init_page_content: HOME_NAV  # HOME_NAV | POST
+
+
+# =========================================================
+# 第三方服务
+# =========================================================
+# Stats
+# google_analytics:
+# baidu_analytics: da20de9fe3800444d8b1721b8ff9bac0
+# Comment service
+
+
+# gitalk评论组件，把下面的配置换成你的，官方文档: https://gitalk.github.io/
+# gitalk:
+#   enable: true # 如果使用 gitalk，请设置改之为true
+#   clientID: 277317290454635afa73
+#   clientSecret: 78223c859304da5e8d71bfce136d436c6ff95c37
+#   repo: blog-comment
+#   owner: forsigner
+#   admin: forsigner
+
+
+# gitment comment service
+gitment:
+  enable: false  # true | false  这里开启
+  owner:  # Your GitHub ID. Required.
+  repo:  # The repository to store your comments. Make sure you're repo's owner. Required.
+  oauth: # An object contains your client ID and client secret. Required.
+    client_id: # GitHub client ID. Required.
+    client_secret: # GitHub client secret. Required.
+  id: # An optional string to identify your page. Default location.href.
+  title: # An optional title for your page, used as issue's title. Default document.title.
+  link: # An optional link for your page, used in issue's body. Default location.href.
+  desc: # An optional description for your page, used in issue's body. Default ''.
+  labels: # An optional array of labels your want to add when creating the issue. Default [].
+  theme: # An optional Gitment theme object. Default gitment.defaultTheme.
+  perPage: # An optional number to which comments will be paginated. Default 20.
+  maxCommentHeight: # An optional number to limit comments' max height, over which comments will be folded. Default 250.
+
+# Valine comment system  https://valine.js.org
+valine:
+  enable: false # 如果使用valine，请设置改之为true
+  appid:  # your leancloud application appid
+  appkey:  # your leancloud application appkey
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: Just go go # comment box placeholder
+  avatar: mm # gravatar style
+  guest_info: nick,mail,link # custom comment header
+  pageSize: 10 # pagination size
+
+
+
+
+# 不算子,文章访问量统计和显示
+busuanzi: true
+
+# =========================================================
+# 页面内容设置
+# =========================================================
+about:
+  - type: me
+    icon: icon-user
+    text_value:
+    - "1998.7"
+    - "万物明朗,积极向上"
+    - "主要方向：前端.也会有面试题,后端,服务器方面的文章."
+  - type: Github
+    icon: icon-github
+    text_key: Github
+    text_value: "@buzuosheng"
+    text_value_url: https://github.com/buzuosheng
+  - type: weibo
+    icon: icon-weibo
+    text_key: 微博
+    text_value: "@甜言蜜语不如不作声"
+    text_value_url: https://weibo.com/u/5973800747
+  - type: mail
+    icon: icon-mail
+    text_key: 邮箱
+    text_value: "1015350043@qq.com"
+  - type: location
+    icon: icon-location
+    text_value: 山西
+
+link:
+  - name: 山月行
+    info: 暮从碧山下，山月随人归。却顾所来径，苍苍横翠微。
+    url: https://shanyue.tech/
+    avatar: https://avatars2.githubusercontent.com/u/13389461?s=64&v=4
+
+project:
+  - type: personal
+    name: 前端武器库
+    url: https://github.com/buzuosheng/toolst
+    intro: 前端程序员日常使用的开发工具
+  - type: personal
+    name: 高分电影
+    url: https://github.com/buzuosheng/movie-app
+    intro: 每天看一部豆瓣高分电影
