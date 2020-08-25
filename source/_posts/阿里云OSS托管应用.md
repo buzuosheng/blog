@@ -4,6 +4,8 @@ date: 2020-08-12 11:26:50
 tags: 自动化部署
 ---
 
+<meta name="referrer" content="no-referrer" />
+
 # 使用Ali OSS托管项目
 
 一般写完前端项目后，就是将自己的项目打包部署了。我使用过[vercel](https://vercel.com/dashboard)和[Netlify](https://www.netlify.com/)两个网站托管平台。今天使用阿里云的OSS（对象存储服务）来托管自己的博客。
