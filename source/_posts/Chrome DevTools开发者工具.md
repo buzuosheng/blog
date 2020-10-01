@@ -1,7 +1,8 @@
 ---
 title: Chrome DevTools开发者工具
 date: 2020-03-15 00:41:28
-tags: 
+tags: 工具类
+categories: 学习从拥有一支好笔开始
 ---
 
 Chrome DevTools是内嵌在Chrome浏览器里的一组用于网页制作和调试的工具。使用DevTools，可以在平时中的开发调试中极大的提高效率。

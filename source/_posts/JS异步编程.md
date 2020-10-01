@@ -1,7 +1,8 @@
 ---
 title: JS异步编程
 date: 2020-03-07 22:50:28
-tags: 
+tags: [异步, JavaScript]
+categories: 面试
 ---
 
 ## 什么是异步

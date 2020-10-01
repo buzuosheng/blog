@@ -1,7 +1,8 @@
 ---
 title: 网络协议TCP、UDP
 date: 2020-04-29 15:28:23
-tags:
+tags: web前端
+categories: 面试
 ---
 
 国际标准化组织（ISO）指定了一个计算机或通信系统间互联的标准体系，一般称为OSI参考模型或七层模型。做前端肯定少不了和网络打交道，所以前端知识栈中必有网络协议。
@@ -33,7 +34,7 @@ TCP建立连接的方式叫做**三次握手**。
 
 TCP断开连接的方式叫做**四次挥手**。
 
-![四次挥手](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=675975939,2504458629&fm=11&gp=0.jpg)
+![四次挥手](https://bkimg.cdn.bcebos.com/pic/d000baa1cd11728bf839be44c8fcc3cec3fd2cbb?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5))
 
 - 第一次挥手。客户端向服务端发送连接释放请求。
 - 第二次挥手。服务端收到释放请求发送确认包，同时进入等待关闭状态。这时服务端不再接受数据，但是还可以发送数据。
@@ -72,5 +73,3 @@ TCP保证老师讲的东西都可以被学生记住，讲课的时候保证一�
 UDP像是，老师不管听懂没听懂，一节课该讲多少就要讲多少，进度可不能落下，所以进度都很快。
 
 由于UDP时效性很高，所以可以用于视频电话，直播等场景中；而TCP对数据完整无误要求更高，所以常用于文件传输等。
-
-![个人微信公众号](https://img-blog.csdnimg.cn/20200407111014270.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxOTA3ODA2,size_16,color_FFFFFF,t_70#pic_center)

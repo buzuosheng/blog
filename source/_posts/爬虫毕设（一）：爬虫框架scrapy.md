@@ -2,6 +2,7 @@
 title: 毕业设计（一）：爬虫框架scrapy
 date: 2020-03-13 00:19:28
 tags: 毕业设计
+categories: 豆瓣电影的爬虫
 ---
 
 ## Scrapy安装

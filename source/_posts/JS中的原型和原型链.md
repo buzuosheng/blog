@@ -1,7 +1,8 @@
 ---
 title: JS中的原型和原型链
 date: 2019-12-21 22:04:13
-tags:
+tags: JavaScript
+categories: 面试
 ---
 
 ## 原型

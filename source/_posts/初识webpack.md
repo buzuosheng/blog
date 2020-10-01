@@ -1,7 +1,8 @@
 ---
-title: 初识webpack
+title: 善其器之webpack
 date: 2020-05-08 23:32:59
-tags:
+tags: [webpack, web前端]
+categories: 学习从拥有一支好笔开始
 ---
 
 > 本质上，webpack是一个现代JavaScript应用程序的*静态模块打包器（module bundler）*。当webpack处理应用程序时，它会递归的构建一个*依赖关系图*，其中包含应用程序需要的每个模块，然后将所有这些模块打包成一个或多个bundle。

@@ -3,6 +3,5 @@ title: {{ title }}
 date: {{ date }}
 tags:
 description: 
+categories: 
 ---
-
-<meta name="referrer" content="no-referrer" />
