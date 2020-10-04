@@ -25,6 +25,7 @@ jobs:
     - name: npm install
       run: npm install
     - name: npm run build
+      run: hexo clean
       run: hexo g
     - name: setup aliyun oss
       uses: manyuanrong/setup-ossutil@master
