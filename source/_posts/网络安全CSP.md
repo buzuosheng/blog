@@ -38,7 +38,7 @@ CSP的**本质是添加白名单**，开发者告诉客户端，哪些外部资�
 
 第一种可以在DevTools中的Network面板中查看：
 
-![github中的CSP设置](网络安全CSP/0.png)
+![github中的CSP设置](0.png)
 
 第二种如下：
 
