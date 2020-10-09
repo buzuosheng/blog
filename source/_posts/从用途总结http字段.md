@@ -56,7 +56,7 @@ HTTP通信是无状态的，但在与服务器通信时是需要有状态的。c
 - **expires/Max-Age**：有效期
 - **secure**：设置是否只能通过https传递该cookie
 
-面试又可以扯
+面试又可以扯到这个方向
 
 ## 跨域
 
@@ -64,7 +64,7 @@ HTTP通信是无状态的，但在与服务器通信时是需要有状态的。c
 
 同时，服务器会在响应报文中添加**Access-Control-Allow-Origin**字段，值为允许跨域的域名。
 
-在跨域问题又可以聊跨域的种解决方式：jsonp、cors、Nginx等九种。
+在跨域问题又可以聊跨域的解决方式：jsonp、cors、Nginx等九种。
 
 使用`vary:origin`防止CDN破坏
 

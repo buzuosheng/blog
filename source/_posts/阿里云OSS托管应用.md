@@ -4,8 +4,6 @@ date: 2020-08-12 11:26:50
 tags: 自动化部署
 ---
 
-<meta name="referrer" content="no-referrer" />
-
 # 使用Ali OSS托管项目
 
 一般写完前端项目后，就是将自己的项目打包部署了。我使用过[vercel](https://vercel.com/dashboard)和[Netlify](https://www.netlify.com/)两个网站托管平台。今天使用阿里云的OSS（对象存储服务）来托管自己的博客。
@@ -98,17 +96,17 @@ on:
 
 **[在工作流程中使用变量和密码](https://docs.github.com/cn/actions/configuring-and-managing-workflows/using-variables-and-secrets-in-a-workflow)**需要在仓库设置中添加Secrets。
 
-![使用变量和密码](https://mmbiz.qpic.cn/mmbiz_png/GY9ZJPx6bMAbtfJYic5yefG2mj73Kuw5xjZDXbK4ctXahiawrnmZhDNhUM02SWr6GfVoQmJTnO85f41BicX9t59og/0?wx_fmt=png)
+![使用变量和密码](aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy9HWTlaSlB4NmJNQWJ0ZkpZaWM1eWVmRzJtajczS3V3NXhqWkRYYks0Y3RYYWhpYXdybm1aaEROaFVNMDJTV3I2R2ZWb1FtSlRuTzg1ZjQxQmljWDl0NTlvZy82NDA.png)
 
 之后在使用`npm install`等命令下载各种包和工具，打包生成静态文件就OK了。
 
-![工作流程](https://mmbiz.qpic.cn/mmbiz_png/GY9ZJPx6bMAogtfQBLppBibch0ibcvsWpC1q2dJpS9dkrUWsrcmeyynvrhNDm0PWorTkC3aib5zG1aS9ZZUFp5ZjQ/0?wx_fmt=png)
+![工作流程](aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy9HWTlaSlB4NmJNQW9ndGZRQkxwcEJpYmNoMGliY3ZzV3BDMXEyZEpwUzlka3JVV3NyY21leXludnJoTkRtMFBXb3JUa0MzYWliNXpHMWFTOVpaVUZwNVpqUS82NDA.png)
 
 ## Ali OSS
 
 [阿里云对象存储服务](https://oss.console.aliyun.com/overview)是阿里云提供的海量、安全、低成本、高可靠的云存储服务。需要先创建一个Bucket，然后将读写权限设置为**公共读**，静态页面首页设置为`index.html`，404页面设置为`404.html`。之后就可以上传文件了。
 
-![使用ossutil上传文件](https://mmbiz.qpic.cn/mmbiz_png/GY9ZJPx6bMAogtfQBLppBibch0ibcvsWpCt2F3ldu2rovb5wibaaleXrpjl70c4R6VDdeDo2x2MicwUo8s7NXm7urw/0?wx_fmt=png)
+![使用ossutil上传文件](aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy9HWTlaSlB4NmJNQW9ndGZRQkxwcEJpYmNoMGliY3ZzV3BDdDJGM2xkdTJyb3ZiNXdpYmFhbGVYcnBqbDcwYzRSNlZEZGVEbzJ4Mk1pY3dVbzhzN05YbTd1cncvNjQw.png)
 
 虽然可以直接点上传文件的按钮上传文件，但是也太不利于自动化了，而且显得特别外行。
 
@@ -133,17 +131,17 @@ on:
 
 开通CDN之后，可以加快网站的访问速度。
 
-![添加CDN](https://mmbiz.qpic.cn/mmbiz_png/GY9ZJPx6bMAogtfQBLppBibch0ibcvsWpCcDcwDSxLKeEywAClU9DfQlEjFRyRxYicfUFK6s9iaJDqITV49t0ylGCg/0?wx_fmt=png)
+![添加CDN](aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy9HWTlaSlB4NmJNQW9ndGZRQkxwcEJpYmNoMGliY3ZzV3BDY0Rjd0RTeExLZUV5d0FDbFU5RGZRbEVqRlJ5UnhZaWNmVUZLNnM5aWFKRHFJVFY0OXQweWxHQ2cvNjQw.png)
 
 在oss的Bucket的域名管理中绑定域名，配置CDN加速。一路确定点点点。
 
 然后再添加HTTPS证书，点点点。
 
-![添加HTTPS](https://mmbiz.qpic.cn/mmbiz_png/GY9ZJPx6bMAogtfQBLppBibch0ibcvsWpClAwgMGFOyaUjjcsoLWO1iciam0qO5WYAY1vs75nUXibaXOcUhia6qulFMQ/0?wx_fmt=png)
+![添加HTTPS](aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy9HWTlaSlB4NmJNQW9ndGZRQkxwcEJpYmNoMGliY3ZzV3BDbEF3Z01HRk95YVVqamNzb0xXTzFpY2lhbTBxTzVXWUFZMXZzNzVuVVhpYmFYT2NVaGlhNnF1bEZNUS82NDA.png)
 
 之后再在阿里云域名添加域名解析到该地址。[如何配置域名解析](https://help.aliyun.com/document_detail/27144.html)。
 
-![域名解析](https://mmbiz.qpic.cn/mmbiz_png/GY9ZJPx6bMAogtfQBLppBibch0ibcvsWpCNWdMIXDznxeiaTFibxJO0IjasaFfSn3GD1qYiayl7AFe3updNLOQgjumA/0?wx_fmt=png)
+![域名解析](aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy9HWTlaSlB4NmJNQW9ndGZRQkxwcEJpYmNoMGliY3ZzV3BDTldkTUlYRHpueGVpYVRGaWJ4Sk8wSWphc2FGZlNuM0dEMXFZaWF5bDdBRmUzdXBkTkxPUWdqdW1BLzY0MA.png)
 
 ## 总结总结
 
