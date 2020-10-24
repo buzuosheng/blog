@@ -1,5 +1,5 @@
 # Blog info
-blog_name: Mxin
+blog_name: 不作声
 slogan: 又菜又爱写
 url: https://www.buzuosheng.com
 
@@ -119,7 +119,7 @@ init_page_content: HOME_NAV  # HOME_NAV | POST
 # =========================================================
 # Stats
 # google_analytics:
-# baidu_analytics: da20de9fe3800444d8b1721b8ff9bac0
+baidu_analytics: da20de9fe3800444d8b1721b8ff9bac0
 # Comment service
 
 

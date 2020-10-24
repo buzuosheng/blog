@@ -398,3 +398,105 @@ class Person {
 }
 ```
 
+在TS中，属性访问器提供了访问和设置类成员的方法`getter`和`setter`。`getter`是用于检索变量值的常规方法，而`setter`是用于更新变量值的常规方法。
+
+``` ts
+let passcode = "Hello TypeScript";
+ 
+class Employee {
+  private _fullName: string;
+ 
+  get fullName(): string {
+    return this._fullName;
+  }
+ 
+  set fullName(newName: string) {
+    if (passcode && passcode == "Hello TypeScript") {
+      this._fullName = newName;
+    } else {
+      console.log("Error: Unauthorized update of employee!");
+    }
+  }
+}
+ 
+let employee = new Employee();
+employee.fullName = "Semlinker";
+if (employee.fullName) {
+  console.log(employee.fullName);
+}
+```
+
+**继承**是面向对象编程的三大基本特征之一。通过使用继承，可以减少大量的代码冗余，在TS中，类的继承通过关键字`extends`实现。
+
+``` ts
+class Animal {
+    name: string;
+    constructor(_name: string) {
+        this.name = _name;
+    }
+    skinColour(color: string = "black"): void {
+        console.log(`${this.name} skin colour is ${color}`)
+    }
+}
+
+class Horse extends Animal {
+    constructor(name: string) { super(name) }
+    skinColour(color: string = "brown"): void {
+        console.log(`I'am ${this.name}`);
+        super.skinColour("brown");
+    }
+}
+
+let horse = new Horse("horse");
+horse.skinColour()
+// I'am horse
+// horse skin colour is brown
+```
+
+使用`abstract`关键字声明的类被称为**抽象类**。抽象类中定义了一个或多个抽象方法，因此**不能被实例化，我们只能实例化实现了所有抽象方法的子类**。
+
+``` ts
+abstract class Person {
+  constructor(public name: string){}
+ 
+  // 抽象方法
+  abstract say(words: string) :void;
+}
+ 
+class Developer extends Person {
+  constructor(name: string) {
+    super(name);
+  }
+  
+  say(words: string): void {
+    console.log(`${this.name} says ${words}`);
+  }
+}
+ 
+const lolo = new Developer("lolo");
+lolo.say("I love ts!"); // lolo says I love ts!
+```
+
+在类中存在一种相似于函数重载的行为，我们称之为**类方法重载**，也就是说，在类中定义的方法的**方法名相同而参数列表不同**。如下代码所示，根据实参的不同，选择不同的方法执行操作：
+
+``` ts
+class ProductService {
+    getProducts(): void;
+    getProducts(id: number): void;
+    getProducts(id?: number) {
+      if(typeof id === 'number') {
+          console.log(`获取id为 ${id} 的产品信息`);
+      } else {
+          console.log(`获取所有的产品信息`);
+      }  
+    }
+}
+ 
+const productService = new ProductService();
+productService.getProducts(666); // 获取id为 666 的产品信息
+productService.getProducts(); // 获取所有的产品信息
+```
+
+## TS中的泛型
+
+**泛型支持一个函数接受不同类型的参数，实现了类、接口、方法的可复用。**泛型可以用来创建可重用组件，
