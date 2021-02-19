@@ -12,21 +12,21 @@ categories: React
 
 使用CSS实现了几种简单的loading样式。
 
-![1](纯css实现loading样式/1.svg)
+![1](1.svg)
 
-![2](纯css实现loading样式/2.svg)
+![2](2.svg)
 
-![3](纯css实现loading样式/3.svg)
+![3](3.svg)
 
-![4](纯css实现loading样式/4.svg)
+![4](4.svg)
 
-![5](纯css实现loading样式/5.svg)
+![5](5.svg)
 
-![6](纯css实现loading样式/6.svg)
+![6](6.svg)
 
-![7](纯css实现loading样式/7.svg)
+![7](7.svg)
 
-![8](纯css实现loading样式/8.svg)
+![8](8.svg)
 
 ## CSS实现
 
