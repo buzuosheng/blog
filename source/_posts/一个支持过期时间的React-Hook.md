@@ -18,5 +18,11 @@ localStorage只有`getItem`, `setItem`, `removeItem()`, `clear()`4个API，本�
 - 如果过期调用`removeItem()`删除缓存，如果没过期就获取Item的值
 
 最后打包发布到npm。
+## 使用
+``` js
+const [item, setItem] = useLocalStorage(key, { initialValue, prefix, age });
+```
+age就是设置的过期时间，使用`ms`库处理后存入到localStorage，每次访问该缓存时都会判断是否过期。
+另外，为了防止覆盖之前的缓存，默认会为Item的key前边添加一个前缀`Prefix:`，也可以自己添加别的前缀。
 
-![image-20210306192716649](image-20210306192716649.png)
+![npm信息](image-20210306192716649.png)
