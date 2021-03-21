@@ -23,7 +23,7 @@ npm i ts-node -D
 安装好后开始添加配置项：
 
 - 在`ts.config.json`中添加配置`"mudoule": esnext`或`es2005`
-- 在`package.json`中添加配置`"type":"modules" `
+- 在`package.json`中添加配置`"type":"module" `
 - 在文件中的`import`语句中**包含文件扩展名**，如`import data from './data'`改为`import data from './data.js'`，另外`.ts`后缀也要改为`.js`
 
 然后就可以使用命令行命令运行ts脚本。
@@ -38,7 +38,7 @@ node --loader ts-node/esm ./my-script.ts
 
 > `SyntaxError: Cannot use import statement outside a module`
 
-无法在模块外使用import，解决这个问题需要在`package.json`文件中添加`"type":"modules" `。
+无法在模块外使用import，解决这个问题需要在`package.json`文件中添加`"type":"module" `。
 
 > `Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\1\Desktop\my-project\data'` imported from 'C:\Users\1\Desktop\get-data.ts'
 
