@@ -1,9 +1,9 @@
 ---
-title: nodejs中如何控制请求的并发数量
+title: nodejs中如何控制请求的并发数量：async-pool
 date: 2020-10-25 23:16:00
-tags: [面试题, 并发请求, nodejs, ]
-description: 
-categories: 面试题
+tags: 面试
+description:
+categories: npm包
 ---
 
 面试问题：

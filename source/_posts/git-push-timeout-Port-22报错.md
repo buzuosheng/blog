@@ -3,7 +3,7 @@ title: git push timeout Port 22报错
 date: 2020-10-12 20:16:44
 tags: 报错
 description:
-categories: Github
+categories: github
 ---
 
 前些天在一次push的时候，突然给我报这个错，对于这种**以前没问题，突然出问题**的情况，就很烦。

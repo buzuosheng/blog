@@ -1,9 +1,9 @@
 ---
 title: 使用webpack和rollup打包应用
 date: 2021-02-23 22:02:24
-tags: ['前端', '打包', '打包工具', '打包', 'webpack', '发包', 'React', 'rollup', '打包组件库','前端模块化','npm']
+tags: 项目打包
 description: 使用webpack和rollup打包React组件库并发布到npm
-categories: 前端
+categories: examples
 ---
 
 ## 前言

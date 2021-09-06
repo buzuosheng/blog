@@ -1,7 +1,7 @@
 ---
 title: JS实现继承
 date: 2020-10-04 23:00:42
-tags: [JavaScript, 面试]
+tags:  面试
 description:
 categories: 面试
 ---

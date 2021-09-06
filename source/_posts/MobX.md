@@ -3,7 +3,7 @@ title: MobX
 date: 2020-11-15 23:52:55
 tags: MobX
 description:
-categories: 前端
+categories: 技术栈
 ---
 
 ## MobX三大要点

@@ -1,8 +1,8 @@
 ---
 title: Node开启多线程多进程
 date: 2020-07-17 23:59:07
-tags: [线程, 进程]
-categories: 面试
+tags: node
+categories: node
 ---
 
 # Node的多进程和多线程问题

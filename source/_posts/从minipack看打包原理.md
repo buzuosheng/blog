@@ -2,6 +2,7 @@
 title: 从minipack看打包原理
 date: 2020-06-23 21:10:44
 tags: webpack
+categories: webpack
 ---
 
 # 从minipack看打包原理

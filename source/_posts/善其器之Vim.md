@@ -1,9 +1,9 @@
 ---
 title: 善其器之Vim
 date: 2020-10-04 22:00:45
-tags: 工具类
+tags: vim
 description:
-categories: 学习从拥有一支好笔开始
+categories:  技术栈
 ---
 
 Vim是一个非常强大的文本编辑器。基本上所有的类Unix系统都会内置vi编辑器，Vim就是从vi发展来的一个编辑器。

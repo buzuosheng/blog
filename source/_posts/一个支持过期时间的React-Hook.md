@@ -1,9 +1,9 @@
 ---
-title: 一个支持过期时间的localStorage React Hook
+title: 一个支持过期时间的localStorage React Hook: @buzuosheng/use-localstorage
 date: 2021-03-06 18:58:32
-tags: ['React Hooks', 'localstorage', '钩子函数', 'npm', '过期时间']
+tags: [npm包, examples]
 description: 支持过期时间的localStorage React hook
-categories: React
+categories: examples
 ---
 
 最近自己造了一个轮子，支持过期时间的localStorage React Hook。

@@ -1,8 +1,8 @@
 ---
 title: 善其器之git
 date: 2020-07-30 20:40:41
-tags: 工具类
-categories: 学习从拥有一支好笔开始
+tags: git
+categories:  技术栈
 ---
 
 # git版本控制工具

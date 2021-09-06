@@ -1,21 +1,21 @@
 ---
-title: 使用ts-node直接运行ts文件调试
+title: 使用 直接运行ts文件调试
 date: 2021-03-14 22:19:51
-tags: ['ts', 'typescript', 'ts脚本', 'ts-node']
-description: 记使用ts-node直接运行文件调试，以及各种报错
-categories: 'Typescript'
+tags: ['ts', 'typescript', 'ts脚本', ' ']
+description: 记使用 直接运行文件调试，以及各种报错
+categories: TypeScript
 ---
 
 ## 应用场景
 
 在代码日常中，经常会需要写各种脚本，今天使用ts写了个脚本，运行的时候各种报错，还是决定写下来。
 
-运行ts脚本需要一个库`ts-node`，这个库不能全局安装，否则会报错。
+运行ts脚本需要一个库` `，这个库不能全局安装，否则会报错。
 
 ``` powershell
-yarn add -D ts-node
+yarn add -D  
 # 或者
-npm i ts-node -D
+npm i   -D
 ```
 
 ## 使用
@@ -29,7 +29,7 @@ npm i ts-node -D
 然后就可以使用命令行命令运行ts脚本。
 
 ``` powershell
-node --loader ts-node/esm ./my-script.ts
+node --loader  /esm ./my-script.ts
 ```
 
 ## 报错
@@ -46,10 +46,10 @@ node --loader ts-node/esm ./my-script.ts
 
 > `TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".ts"`
 
-我收到这条报错的时候，命令行命令使用的是`ts-node ./myscripts.ts`，改用以下命令时，问题解决。
+我收到这条报错的时候，命令行命令使用的是`  ./myscripts.ts`，改用以下命令时，问题解决。
 
 ``` powershell
-node --loader ts-node/esm ./my-script.ts
+node --loader  /esm ./my-script.ts
 ```
 
 > `ReferenceError: fetch is not defined`

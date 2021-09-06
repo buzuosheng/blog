@@ -1,7 +1,7 @@
 ---
 title: 网络安全CSP
 date: 2020-10-04 13:57:06
-tags: 面试
+tags: [浏览器, 面试]
 description: 内容安全策略CSP
 categories: 面试
 ---

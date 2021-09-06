@@ -1,9 +1,9 @@
 ---
 title: 'tailwindcss: 弟弟们都往后稍稍'
 date: 2021-03-20 19:50:05
-tags: ['css', 'tailwindcss', 'less', 'sass', 'css module', 'css-in-js']
+tags: tailwindcss
 description: 
-categories: 前端
+categories: 技术栈
 ---
 
 ## CSS的现状

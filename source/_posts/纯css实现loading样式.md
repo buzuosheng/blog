@@ -1,9 +1,9 @@
 ---
 title: 纯css实现loading样式
 date: 2021-02-17 17:19:13
-tags: ['面试', 'react','CSS','loading','加载','组件']
+tags: [面试, css]
 description: 纯CSS实现loading样式组件
-categories: React
+categories: css
 ---
 
 ## 为什么使用CSS做图片

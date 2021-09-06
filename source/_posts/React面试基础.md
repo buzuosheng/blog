@@ -1,7 +1,7 @@
 ---
 title: React面试基础
 date: 2020-04-13 11:59:42
-tags: [面试, React]
+tags: 面试,
 categories: 面试
 ---
 

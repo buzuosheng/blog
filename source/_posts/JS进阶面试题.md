@@ -1,7 +1,8 @@
 ---
 title: JS进阶面试题
 date: 2020-03-10 15:25:28
-tags: 
+tags: 面试
+categories: 面试
 ---
 
 ## call()

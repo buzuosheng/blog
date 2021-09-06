@@ -1,9 +1,9 @@
 ---
-title: 如何将dom节点转换为图像
+title: 如何将dom节点转换为图像：dom-to-image
 date: 2021-02-05 17:53:18
-tags: ['dom转图片', 'dom-to-image', '前端', '面试']
+tags: 面试
 description: 如何将网页DOM转换成图片
-categories: 面试
+categories: npm包
 ---
 
 前端经常会遇到这样的业务场景，页面生成图片用于分享活动。

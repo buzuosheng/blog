@@ -2,6 +2,7 @@
 title: Redux快速使用
 date: 2020-08-18 21:33:49
 tags: Redux
+categories: 技术栈
 ---
 
 ## Redux

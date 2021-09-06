@@ -1,7 +1,8 @@
 ---
 title: 使用now.sh部署前端项目
 date: 2020-06-08 19:02:41
-tags: 自动化部署
+tags: 工程化
+categories: 工程化
 ---
 
 now.sh是ZEIT推出的一款全球化实时部署服务。ZEIT现在已经改名为Vercel。

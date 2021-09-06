@@ -1,8 +1,8 @@
 ---
 title: Docker入门
 date: 2020-04-27 18:51:54
-tags: 工具类
-categories: 学习从拥有一支好笔开始
+tags: docker
+categories:  技术栈
 ---
 
 > Docker是一个开源的容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的Linux或Windows机器上，也可以实现虚拟化。
