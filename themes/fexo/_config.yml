@@ -34,9 +34,9 @@ page_nav:
   - name: 分类
     url: /category/
     target_blank: false
-  - name: 标签
-    url: /tag/
-    target_blank: false
+  # - name: 标签
+  #   url: /tag/
+  #   target_blank: false
   - name: 友链
     url: /link/
     target_blank: false
