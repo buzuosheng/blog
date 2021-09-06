@@ -24,6 +24,8 @@ jobs:
       run: npm install hexo-cli -g
     - name: npm install
       run: npm install
+    - name clean cache
+      run: hexo clean
     - name: npm run build
       run: hexo g
     - name: setup aliyun oss

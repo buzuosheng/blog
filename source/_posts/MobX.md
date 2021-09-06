@@ -1,7 +1,7 @@
 ---
 title: MobX
 date: 2020-11-15 23:52:55
-tags: MobX
+tags: 状态管理工具
 description:
 categories: 技术栈
 ---

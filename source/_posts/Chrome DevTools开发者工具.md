@@ -1,7 +1,7 @@
 ---
 title: Chrome DevTools开发者工具
 date: 2020-03-15 00:41:28
-tags: chrome
+tags: 浏览器
 categories:  技术栈
 ---
 

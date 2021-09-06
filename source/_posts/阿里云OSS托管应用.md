@@ -1,8 +1,8 @@
 ---
 title: 阿里云OSS托管应用
 date: 2020-08-12 11:26:50
-tags: 前端工程化
-categories: 前端工程化
+tags: 工程化
+categories: 工程化
 ---
 
 # 使用Ali OSS托管项目

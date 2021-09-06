@@ -1,7 +1,7 @@
 ---
 title: HTTP的优化历程
 date: 2021-02-04 00:23:19
-tags: ['HTTP', 'http', 'http/2', '前端']
+tags: http
 description: http协议的优化历程
 categories: 面试
 ---

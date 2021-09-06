@@ -1,9 +1,9 @@
 ---
 title: 使用 直接运行ts文件调试
 date: 2021-03-14 22:19:51
-tags: ['ts', 'typescript', 'ts脚本', ' ']
+tags: ts-node
 description: 记使用 直接运行文件调试，以及各种报错
-categories: TypeScript
+categories: typescript
 ---
 
 ## 应用场景
