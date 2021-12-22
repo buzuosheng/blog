@@ -194,10 +194,10 @@ link:
     info: 暮从碧山下，山月随人归。却顾所来径，苍苍横翠微。
     url: https://shanyue.tech/
     avatar: /images/shanyue.jpg
-  # - name: 百事可樂quq
-  #   info: 穷且益坚，不坠青云之志
-  #   url: http://www.qjwhz.top/
-  #   avatar: http://47.100.47.221/upload/2020/06/%5D8)4XZ9UL25K(BYIA4KEC1M-df2612a210704e5aaa4fe570aa11925e.jpg
+  - name: 赖同学
+    info: 这里是赖同学，请多多指教
+    url: http://laibh.top/
+    avatar: /images/laitongxue.png
 
 project:
   - type: personal
