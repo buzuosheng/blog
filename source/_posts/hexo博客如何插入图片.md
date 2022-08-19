@@ -106,3 +106,5 @@ Typora对于插入图片的支持做得非常好，在`文件->偏好设置`或�
 ![bizhi](bizhi.jpg)
 
 ![bizhi](/bizhi.jpg)
+
+![wallpaper](wallpaper.jpg)
