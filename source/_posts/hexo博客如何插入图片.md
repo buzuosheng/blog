@@ -4,6 +4,7 @@ date: 2020-10-11 23:16:22
 tags: 报错
 description:
 categories: 博客
+typora-root-url: hexo博客如何插入图片
 ---
 
 Hexo是一个静态的博客网站生成器，生成一个博客只需要分分钟的时间就能搞定。
@@ -100,11 +101,5 @@ Typora对于插入图片的支持做得非常好，在`文件->偏好设置`或�
 然后再将博客上传，图片就会随着文章一起打包。在网页中就可以看到正常显示的图片，大功告成。
 
 放入一张壁纸
-
-![bizhi](./bizhi.jpg)
-
-![bizhi](bizhi.jpg)
-
-![bizhi](/bizhi.jpg)
 
 ![wallpaper](wallpaper.jpg)
