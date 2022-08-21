@@ -1,10 +1,10 @@
 ---
 title: hexo博客如何插入图片
+typora-root-url: hexo博客如何插入图片
 date: 2020-10-11 23:16:22
 tags: 报错
 description:
 categories: 博客
-typora-root-url: hexo博客如何插入图片
 ---
 
 Hexo是一个静态的博客网站生成器，生成一个博客只需要分分钟的时间就能搞定。

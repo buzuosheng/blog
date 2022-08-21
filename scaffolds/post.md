@@ -1,7 +1,8 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
+tags: 
 description: 
 categories: 
+typora-root-url: {{ title }}
 ---
